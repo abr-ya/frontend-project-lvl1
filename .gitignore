@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+docs/
+.DS_Store
+.editorconfig
+.log
+.env
+.env_stage
+.vscode
+yarn.lock
+.idea
