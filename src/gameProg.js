@@ -15,8 +15,8 @@ const progStep = () => {
   }
   const question = arr.map((el, j) => (j === hide ? '..' : el.toString())).join(' ');
   const corAns = arr[hide].toString();
-  console.log('Question: ', question);
-  const answer = readlineSync.question('Your answer:  ');
+  console.log('Question:', question);
+  const answer = readlineSync.question('Your answer: ');
   const res = answer === corAns;
   console.log(res ? 'Correct!' : `'${answer}' is wrong answer ;(. Correct answer was '${corAns}'.`);
 
